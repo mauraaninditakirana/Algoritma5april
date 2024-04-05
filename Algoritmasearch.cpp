@@ -46,8 +46,12 @@ void LinearSearch()
             if (arr[i] == item)
             {
                 cout << "\n" << item << " found at position " << (i + 1) << endl; //step 6
+                break;
             }
+            i++; //step4
         
         } 
+
+        if (i == n) // step 5
     }
 }
