@@ -58,5 +58,6 @@ void LinearSearch()
 
         cout << "\nContinue seratch (y/n): ";
         cin >> ch;
-    }
+
+    }while ((ch == 'y') || (ch == 'Y'));
 }
